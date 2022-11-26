@@ -34,6 +34,7 @@
 ### Divergence analyses
 
 #### GC content
+* [GC_content.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/RIP_analysis/GC_content.sh) - determining GC content of TE copies to assess RIP
 
 #### LTR divergence
 1. [preprocess_for_LTR.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/preprocess_for_LTR.sh) - filter all annotations of each LTR-retrotransposon of interest for those included in the domain-based ML TE phylogenies
