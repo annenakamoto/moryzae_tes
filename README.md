@@ -29,15 +29,20 @@
 7. [repTE_indiv_trees.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Rep_TE_Lib/repTE_indiv_trees.sh) - produce a tree for each individual TE of interest using all RepeatMasker hits
 8. [domseq_TE_trees.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Rep_TE_Lib/domseq_TE_trees.sh) - generate domain based ML phylogenies for each individual TE of interest
 
-### Solo LTR annotation
-
 ### Divergence analyses
 
 #### GC content
 
 #### LTR divergence
+1. preprocess_for_LTR.sh
+2. blast_LTR.sh
+3. align_LTRs.sh
+4. rmask_LTRs.sh
+5. flank_LTR.sh
 
 #### Jukes-Cantor distance
+
+### Solo LTR annotation
 
 ### POT2 transfer analysis
 
