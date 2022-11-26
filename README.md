@@ -17,7 +17,7 @@
 ## Details
 
 ### Gene annotation and genome phylogeny
-* [anne_fungap_run.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/anne_fungap_run.sh) - gene prediction using FunGap for each genome
+* [fungap_run.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/fungap_run.sh) - gene prediction using FunGap for each genome
 * [makeTree.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/makeTree.sh) - runs OrthoFinder to find SCOs, uses them to build a genome tree
 * [effector_analysis.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/effector_analysis.sh) - predicting effectors in the proteome of each genome
 
