@@ -17,8 +17,8 @@
 ## Details
 
 ### Gene annotation and genome phylogeny
-[makeTree.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/makeTree.sh) - runs OrthoFinder to find SCOs, uses them to build a genome tree
-[effector_analysis.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/effector_analysis.sh) - predicting effectors in the proteome of each genome
+* [makeTree.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/makeTree.sh) - runs OrthoFinder to find SCOs, uses them to build a genome tree
+* [effector_analysis.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/GenomeTree/effector_analysis.sh) - predicting effectors in the proteome of each genome
 
 ### TE annotation pipeline and phylogeny
 1. [robustTE_denovo.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Rep_TE_Lib/robustTE_denovo.sh) - run on each representative genome to produce *de novo* repeat annotations
@@ -44,7 +44,7 @@
 #### Jukes-Cantor distance
 
 ### Solo LTR analysis
-[soloLTR_analysys.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/soloLTR_analysis/soloLTR_analysys.sh) - use previous LTR annotations and locations of all full elements to identify solo LTRs
+* [soloLTR_analysys.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/soloLTR_analysis/soloLTR_analysys.sh) - use previous LTR annotations and locations of all full elements to identify solo LTRs
 
 ### POT2 transfer analysis
 
