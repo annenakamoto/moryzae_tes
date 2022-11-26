@@ -47,14 +47,20 @@
 * [JC_dist_ref.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_ref.sh) - determine JC distances between each TE and the consensus (one consensus for all lineages)
 * [JC_dist_lin.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_lin.sh) - determine JC distances between each TE and the consensus (individual consenses for each lineage)
 * [JC_dist_gen.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_gen.sh) - determine JC distances for representative genomes
-* [visualize_TEs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/visualize_TEs.sh) - generate bed files to visualize JC distance along with TE position
 
 ### Solo LTR analysis
 * [soloLTR_analysys.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/soloLTR_analysis/soloLTR_analysys.sh) - use previous LTR annotations and locations of all full elements to identify solo LTRs
 
 ### POT2 transfer analysis
+* [POT2_mummer.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/POT2_mummer.sh) - find any POT2 + flanking sequences that have synteny
+* [POT2_flank.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/POT2_flank.sh) - look at flanking genes of POT2 copies
 
 ### Region of recombination analysis
+
+### Generating visualization files
+* [visualize_OGs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/visualize_OGs.sh) - generate bed files to visualize all genes, SCOs, and effectors in each genome
+* [visualize_TEs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/visualize_TEs.sh) - generate bed files to visualize JC distance along with TE position
+* [genomewide_GC.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/genomewide_GC.sh) - generate seg files to visualize GC content across each genome
 
 ## Contact
 Anne Nakamoto - annen@berkeley.edu
