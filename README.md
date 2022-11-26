@@ -44,6 +44,10 @@
 5. [flank_LTR.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/flank_LTR.sh) - identify flanking LTRs for each LTR-retrotransposon of interest and find the divergence between them
 
 #### Jukes-Cantor distance
+[JC_dist_ref.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_ref.sh) - determine JC distances between each TE and the consensus (one consensus for all lineages)
+[JC_dist_lin.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_lin.sh) - determine JC distances between each TE and the consensus (individual consenses for each lineage)
+[JC_dist_gen.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/JC_dist_gen.sh) - determine JC distances for representative genomes
+[visualize_TEs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Jukes-Cantor/visualize_TEs.sh) - generate bed files to visualize JC distance along with TE position
 
 ### Solo LTR analysis
 * [soloLTR_analysys.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/soloLTR_analysis/soloLTR_analysys.sh) - use previous LTR annotations and locations of all full elements to identify solo LTRs
