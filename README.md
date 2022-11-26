@@ -6,11 +6,11 @@
 ## Contents
 * Gene annotation and genome phylogeny
 * TE annotation pipeline and phylogeny
-* Solo LTR annotation
 * Divergence analyses
   * GC content
   * LTR divergence
   * Jukes-Cantor distance
+* Solo LTR analysis
 * POT2 transfer analysis
 * Region of recombination analysis
 
@@ -34,15 +34,16 @@
 #### GC content
 
 #### LTR divergence
-1. preprocess_for_LTR.sh
-2. blast_LTR.sh
-3. align_LTRs.sh
-4. rmask_LTRs.sh
-5. flank_LTR.sh
+1. [preprocess_for_LTR.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/preprocess_for_LTR.sh) - filter all annotations of each LTR-retrotransposon of interest for those included in the domain-based ML TE phylogenies
+2. [blast_LTR.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/blast_LTR.sh) - determine the LTR sequence for each LTR-retrotransposon of interest
+3. [align_LTRs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/align_LTRs.sh) - align and generate consensus sequences for each LTR
+4. [rmask_LTRs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/rmask_LTRs.sh) - run RepeatMasker on representative genomes using a library of the LTR consensus sequences
+5. [flank_LTR.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/LTR_divergence/flank_LTR.sh) - identify flanking LTRs for each LTR-retrotransposon of interest and find the divergence between them
 
 #### Jukes-Cantor distance
 
-### Solo LTR annotation
+### Solo LTR analysis
+[soloLTR_analysys.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/soloLTR_analysis/soloLTR_analysys.sh) - use previous LTR annotations and locations of all full elements to identify solo LTRs
 
 ### POT2 transfer analysis
 
