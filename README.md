@@ -56,6 +56,11 @@
 * [POT2_flank.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/POT2_flank.sh) - look at flanking genes of POT2 copies
 
 ### Region of recombination analysis
+* [b71_colocate.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Gene_tree_topology/b71_colocate.sh) - see if any protein-sequence gene trees with POT2 tree topology are co-located in the B71 genome
+* [nuc_tree_POT2_topo.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Gene_tree_topology/nuc_tree_POT2_topo.sh) - make nucleotide-sequence based gene trees to see if POT2 topology holds
+* [full_region_tree.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Gene_tree_topology/full_region_tree.sh) - make a phylogeny for the full region on chr7 containing POT2 topology genes
+* [characterize region.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Gene_tree_topology/characterize_region.sh) - characterize any PAV or effectors for the genes in the potential region of recombination
+* [GO_PFAM_pot2topo.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/Gene_tree_topology/GO_PFAM_pot2topo.sh) - determine GO terms and PFAM domains for the genes in the potential region of recombination
 
 ### Generating visualization files
 * [visualize_OGs.sh](https://github.com/annenakamoto/moryzae_tes/blob/main/POT2_HT/visualize_OGs.sh) - generate bed files to visualize all genes, SCOs, and effectors in each genome
