@@ -1,6 +1,6 @@
 # Transposable elements in *Magnaporthe oryzae*
   This repository contains code used for the analysis of transposable elements (TEs) in *Magnaporthe oryzae*.
-  It is organized following the order of the manuscript, which is preprinted here: (DOI TBD) and additional data files are available on Zenodo: DOI 10.5281/zenodo.7366416
+  It is organized following the order of the manuscript, which is preprinted here: https://doi.org/10.1101/2022.11.27.518126 and additional data files are available on Zenodo: DOI 10.5281/zenodo.7366416
 
 ## Contents
 * Gene annotation and genome phylogeny
